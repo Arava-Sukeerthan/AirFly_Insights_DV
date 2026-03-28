@@ -44,6 +44,9 @@ Use Streamlit Cloud, Heroku, or Docker:
 - Heroku: `Procfile` and `git push heroku main`
 - Docker: `docker build -t smart-travel-planner .` and `docker run -p 8501:8501 smart-travel-planner`
 
+## Live Demo
+- https://airflyinsightsdv-7bfzkx4pvverfapdy7pg99.streamlit.app/
+
 ## Best practices
 - Keep `airline_operations.csv` up-to-date
 - Use cache decorators for speed (`@st.cache_data` already used)
